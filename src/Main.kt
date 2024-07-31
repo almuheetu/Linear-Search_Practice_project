@@ -9,6 +9,7 @@ fun linearSearch(array: IntArray, target: Int): Int {
 
 fun main() {
     val numbers = intArrayOf(10, 20, 30, 40, 50)
+    println(numbers.find { it == 35 })
     var target = 50
     var result = linearSearch(numbers, target)
     println(result)
