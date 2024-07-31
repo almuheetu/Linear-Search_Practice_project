@@ -23,4 +23,9 @@ fun main() {
     println(result)
 
 
+    val array = intArrayOf(1,3,4,5,6,7,8,9,10,34,21,32,31,90)
+    val arrayIndex = 90
+    val foundIndex = linearSearch(array, arrayIndex)
+    println(foundIndex)
+
 }
